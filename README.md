@@ -59,8 +59,8 @@ Backend-tutorial/
 ## 環境構築方法
 
 ```
-git clone 
-cd 
+git clone https://github.com/TerileYuta/backend-tutorial.git -b develop
+cd backend-tutorial
 docker-compose up -d --build
 docker-compose exec app bash
 python init_db.py
